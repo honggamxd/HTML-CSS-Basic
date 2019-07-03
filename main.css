@@ -1,0 +1,135 @@
+
+.input-search input {
+    padding: 10px;
+    margin-left: 5%;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 60%;
+    background: #f1f1f1;
+}
+.input-search button{
+    float: left;
+    width: 4%;
+    height: 42px;
+    font-size: 17px;
+    background: url(images/Capture.JPG);
+    background-size: contain;
+}
+.input-search button:hover {
+    background: #f1f1f1;
+}
+
+.topnav {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    margin-left: 5%;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav img{
+    display: inline;
+    margin-left: 5px;
+    height: 17px;
+    width: 17px;
+}
+.navright {
+    float: right;
+    display: inline;
+    margin-right: 15%;
+}
+.navright a{
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+header{
+    padding: 1em;
+    height: 250px;
+    color: white;
+    background-image: url("images/bg.jpg");
+    clear: left;
+    text-align: center;
+}
+/*Flex 4 row*/
+.container {
+    display: flex;
+    padding-top: 2px;
+    margin-right: 5%; }
+.item4 {
+    margin-left: 5%;
+    flex-basis: 25%; }
+.item4 button {
+    background-color: coral;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 12px;
+    margin-top: 5%;
+}
+.container2 {
+    display: flex;
+}
+.item2 {
+    margin-right: 5%;
+    flex-basis: 50%; }
+.item2 img {
+    width: 50%;
+    height: 70%;
+}
+.item4 img {
+    width: 100%;
+    height: 55%;
+    margin-bottom: 5%;
+}
+.shopc img {
+    width: 100%;
+    height: 80%;
+    margin-bottom: 10%;
+}
+.return{
+    clear: left;
+    height: 50px;
+    padding: 3px 0 5px 0 ;
+    color: white;
+    background-color: coral;
+    text-align: center;
+}
+footer{
+    clear: left;
+    padding: 15px;
+    height: 200px;
+}
+
+.selectbox {
+    position: absolute;
+    margin-left: 5%;
+
+}
+.selectbox select {
+    font-size: 17px;
+    height: 42px;
+}
+
